@@ -1,0 +1,53 @@
+main:
+    sep : ; #Separator for generated files (only needed when generated file has to be opened on specific )
+    report_dir : ./report/
+    log_dir : ./log/
+    delay: 0.5
+    
+#objectives :
+    #-club:
+        # url: tfmarkt URL
+        # cies_name: name of club in CIES graphs, to ensure that players are correctly extracted
+        # target_dates: - date1
+        #               - date2 (in chronological order)
+
+objectives :
+    - OL:
+        url: https://www.transfermarkt.fr/olympique-lyon/startseite/verein/1041
+        cies_name: Olympique Lyonnais
+        target_dates:
+            - 06/2018
+            - 09/2018
+            - 10/2018
+            - 11/2018
+            - 12/2018
+            - 01/2019
+        
+    # - OM:
+    #     url: https://www.transfermarkt.fr/olympique-marseille/startseite/verein/244
+    #     cies_name: Olympique de Marseille
+    #     target_dates: 
+    #         - 01/2018
+    #         - 06/2018
+        
+    # - ASM:
+    #     url: https://www.transfermarkt.fr/as-monaco/startseite/verein/162
+    #     cies_name: AS Monaco
+    #     target_dates: 
+    #         - 01/2018
+    #         - 06/2018
+
+    # - PSG:
+    #     url: https://www.transfermarkt.fr/fc-paris-saint-germain/startseite/verein/583/
+    #     cies_name: Paris St-Germain FC
+    #     target_dates: 
+    #         - 01/2018
+    #         - 06/2018
+
+    # - LOSC:
+    #     url: https://www.transfermarkt.fr/osc-lille/startseite/verein/1082/
+    #     cies_name: LOSC Lille
+    #     target_dates:
+    #         - 01/2018
+    #         - 06/2018
+
