@@ -1,12 +1,5 @@
 # coding:utf-8
 
-'''
-Module: uclDrawCal
-Created on 2016-12-8
-@author: Ring
-'''
-
-
 import itertools
 
 
